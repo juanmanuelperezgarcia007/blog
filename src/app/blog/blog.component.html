@@ -1,0 +1,9 @@
+<h2>Lista de post</h2>
+<div class="post" *ngFor="let pos of listaBlog">
+  <p id="titulo">{{pos.titulo}}</p>
+  <p id="texto">{{pos.texto}}</p>
+  <p>{{pos.autor}}</p>
+  <img [src]="post.imagen">
+  <p>{{pos.fecha}}</p>
+  <p>{{pos.categoria}}</p>
+</div>

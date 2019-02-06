@@ -1,0 +1,26 @@
+<h2>Formulario</h2>
+<h4>Introduce tus nuevos Post desde aqui</h4>
+  <div >
+  
+  <p>Titulo</p><input [(ngModel)]="newpPost.titulo" type="text">
+  <p>Texto</p><textarea [(ngModel)]="newpPost.texto"></textarea>
+  <p>Autor</p><input [(ngModel)]="newpPost.autor" type="text"><br>
+  <p>Imagen</p> <input [(ngModel)]="newpPost.imagen" type="url">
+
+  <p>Categoria</p>
+  <select [(ngModel)]="newpPost.categoria">
+    <option selected value="departamento">Elije departamento</option>
+    <option value="musica">Musica</option>
+    <option value="deportes">Deportes</option>
+    <option value="ciencia">Ciencia</option>
+    <option value="tecnologia">Tecnologia</option>
+    <option value="ocio">Ocio</option>
+
+
+</select>
+
+<div class="enviar" (click)="guardarNewPost()">Enviar</div>
+
+
+
+</div>
