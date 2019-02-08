@@ -1,5 +1,12 @@
 .enviar{
     cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    margin-left: 75px;
+    margin-top:75px;
+    font-size: 1em;
+    color:lightcoral
 }
 h2{
     text-align: center;
@@ -14,4 +21,10 @@ p{
 }
 input textarea{
     margin-left: 30px
+}
+div input {
+    font-family: 'Lobster', cursive;
+}
+div textarea{
+    font-family: 'Lobster', cursive;
 }

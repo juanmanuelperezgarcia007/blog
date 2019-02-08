@@ -18,6 +18,7 @@ export class FormularioComponent implements OnInit {
   }
   guardarNewPost(){
   this.postService.agregarPost(this.newpPost)
+  
   console.log(this.newpPost)
   }
 }
